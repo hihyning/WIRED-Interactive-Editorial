@@ -165,3 +165,84 @@ canvas {
     font-weight: 400;
     margin-left: 15%;
 }
+
+#readmore a {
+    font-family: "Share Tech Mono", monospace;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    color: #000;
+    font-size: 0.9em;
+    text-decoration: none;
+    margin-left: 15%;
+}
+
+#readmore a:hover {
+    color: #0070E8;
+    text-decoration: underline;
+    line-height: 1.1;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .article-body {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  .article-body p {
+    margin-left: 5%;
+    font-size: 1rem;
+  }
+
+  header.wired-header {
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  header.wired-header nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+    max-height: 120px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  header.wired-header nav a {
+    margin: 5px 0;
+  }
+
+  header.wired-header img {
+    margin: 10px auto;
+  }
+
+  #readmore {
+    font-size: 0.8em;
+    margin-left: 10%;
+  }
+
+  .article-container img {
+    width: 100%;
+    margin-top: 10%;
+  }
+
+.article-head h1{
+    width: 80%;
+}
+ .article-body h2{
+    font-size: 1.2rem;
+    width: 100%
+ }
+}
+
+@media screen and (max-width: 480px) {
+  .article-body p {
+    margin-left: 3%;
+    font-size: 0.9rem;
+  }
+
+  header.wired-header img {
+    height: 24px;
+  }
+}
