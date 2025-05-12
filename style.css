@@ -1,0 +1,167 @@
+@import url('https://fonts.cdnfonts.com/css/apercu-pro');
+@font-face {
+    font-family: 'Breve News Book';
+    src: url('./Breve News Book copy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Breve News Light';
+    src: url('./Breve\ News\ Light\ copy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Breve News Bold';
+    src: url('./Breve\ News\ Bold\ copy.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tungsten';
+    src: url('./Tungsten-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
+    background: #fff;
+    font-family: 'Apercu Pro', sans-serif;
+}
+
+.header, header.wired-header {
+    width: 100vw;
+    padding: 0;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    height: 64px;
+}
+
+.wired-header img {
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin-left: 20px;
+}
+
+.article-container {
+    width: 90vw;
+    color: #000;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.article-container img {
+    width: 35%;
+    height: auto;
+}
+
+header a {
+    font-family: "Share Tech Mono", monospace;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    color: #000;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #0070E8;
+    text-decoration: underline;
+    line-height: 1.1;
+    text-align: left;
+}
+
+.article-head h1 {
+    font-family: "Anton", sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    color: #000;
+    text-align: left;
+    font-weight: 400;
+}
+
+.article-head h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    font-family: "Apercu Pro", sans-serif;
+    line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 32px;
+    text-align: left;
+    font-style: normal;
+}
+
+.binocular-container {
+    max-width: 90vw;
+    margin: 40px auto;
+}
+
+#sketch-holder {
+    margin: 10px auto;
+}
+
+.binocular-container a {
+    font-family: "Share Tech Mono", monospace;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    color: #000;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+.binocular-container a:hover {
+    color: #0070E8;
+    text-decoration: underline;
+    line-height: 1.1;
+    text-align: left;
+}
+
+canvas {
+    width: 90vw !important;
+    height: auto !important;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    border: none;
+}
+  
+  header.wired-header img {
+    height: 32px;
+    width: auto;
+    object-fit: contain;
+    margin-left: 0;
+    padding-left: 0;
+    display: block;
+    margin: auto 0;
+  }
+
+.article-body {
+    width: 50vw;
+    margin: 0;
+}
+
+.article-body p {
+    font-family: "Breve News Light", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #000;
+    text-align: left;
+    font-weight: 400;
+    margin-left: 15%;
+}
